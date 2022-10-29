@@ -4,7 +4,7 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 
 // Add to GameObjects which should be faded. Set fadeDistance. Remove any renderers or materials to exclude from fading.
-// Set the static fadeObject to the target to fade objects around at runtime
+// Set the static fadeObject to the target to fade nearby objects at runtime
 public class FadeMaterialSwapper : SerializedMonoBehaviour {
     public float fadeDistance;
     [SerializeField] private List<Material> materials;
